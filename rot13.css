@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+html {
+    font: 100% 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    color: #DDD;
+    background-color: #444;
+    padding: 2em;
+    line-height: 1.5em;
+    letter-spacing: .05em;
+    
+}
+
+h1 {
+    font-size: 250%;
+    font-weight: normal;
+    color: #FFF;
+    margin: 0;
+    padding: 0;    
+}
+
+h2 {
+	font-size: 200%;
+    color: #FFF;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    font-size:75%;
+}
+
+section {
+    margin: 3em auto 3em auto;
+    max-width: 500px;
+}
+
+a {
+    color: #C60;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F80;
+    text-decoration: underline;
+}
+
+b {
+    font-weight: bold;
+}
+
+blockquote b {
+	font-size: 120%;
+}
+
+em {
+    color: #F80;
+    font-style: normal;
+}
+
+blockquote {
+	text-indent: -1.1em;
+    margin: 0 0 0 1.1em;
+    padding: 0;
+    position: relative;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 6em;
+    color: #888;
+    position: absolute;
+    left: -.5em;
+    top: 0.2em;
+}
+
+cite {
+    font-style: italic;
+}
+
+textarea {
+    font: 100% 'Source Sans Pro', sans-serif;    
+    color: #DDD;
+    background-color: #333;
+    border: 1px solid #888;
+    resize: none;
+    width: 100%;
+}
+
+footer {
+    color: #888;
+    font-size: 75%;
+    text-align: center;
+}
+
+blockquote footer {
+    font-size: 100%;
+    text-align: left;
+}
