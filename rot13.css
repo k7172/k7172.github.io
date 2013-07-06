@@ -63,6 +63,11 @@ em {
     font-style: normal;
 }
 
+var {
+	font-style: normal;
+	font-family: monospace;
+}
+
 blockquote {
 	text-indent: -1.1em;
     margin: 0 0 0 1.1em;
